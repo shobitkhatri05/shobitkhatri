@@ -1,0 +1,44 @@
+/* You can add global styles to this file, and also import other style files */
+
+body {
+    overflow-x: hidden;
+    /* padding-top: 60px; */
+    /* background-color: #2a3a4b; */
+    /* background-color: white; */
+    /* background-image: url(../src/assets/images/abc.jpg); */
+    /* background-image: linear-gradient(to right top, #00002c, #00133b, #011f4a, #022a5a, #03376b, #0a3769, #0f3867, #143865, #162c51, #15213d, #11172b, #090a1a); */
+    /* background-image: linear-gradient(to right top, #070416, #0b0523, #0b0630, #06063e, #02054b, #03054a, #04044a, #050449, #0a053a, #0e042c, #0b031e, #04020d); */
+    /* background-image: linear-gradient(to right top, #070416, #131323, #1a1d31, #212740, #27314f, #27314e, #28314e, #28314d, #22263c, #1b1c2c, #13121d, #04020d); */
+    background-image: linear-gradient(to right top, #010006, #090617, #0f0d23, #0e122f, #0b163c, #14143a, #1b1338, #201136, #220c26, #1e0718, #15030c, #000000);
+    /* background-image: linear-gradient(to right top, #010006, #0d091b, #11112a, #11173b, #0f1c4d, #1b1a4b, #231848, #2a1645, #2a0f2f, #230b1e, #18050f, #000000); */
+    /* background-image: linear-gradient(to right bottom, #131314, #13121c, #111224, #0f112c, #0b1034, #0b1034, #0b1034, #0b1034, #0f112c, #111224, #13121c, #131314); */
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.ch-grid {
+    margin: 20px 0 0 0;
+    padding: 0;
+    list-style: none;
+    display: block;
+    text-align: center;
+    width: 100%;
+}
+
+.ch-grid:after,
+.ch-item:before {
+    content: '';
+    display: table;
+}
+
+.ch-grid:after {
+    clear: both;
+}
+
+.ch-grid li {
+    width: 220px;
+    height: 220px;
+    display: inline-block;
+    margin: 20px;
+}

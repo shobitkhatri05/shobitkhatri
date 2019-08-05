@@ -1,0 +1,84 @@
+<!-- DropDown -->
+<div style="margin-top:5%;  text-align: center;">
+    <div class="btn-group">
+        <button type="button" style="border-radius: 30px;" class="btn btn-info btn-lg  dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+          Category
+        </button>
+        <div class="dropdown-menu list" style="background-color: white;">
+            <a class="dropdown-item element" href="#">Angular</a>
+            <a class="dropdown-item element" href="#">Node</a>
+            <a class="dropdown-item element" href="#">Python</a>
+            <a class="dropdown-item element" href="#">React Native</a>
+            <a class="dropdown-item element" href="#">IOS</a>
+            <a class="dropdown-item element" href="#">Android</a>
+        </div>
+    </div>
+    &nbsp; &nbsp;
+    <div class="btn-group">
+        <button type="button" style="border-radius: 30px;" class="btn btn-lg btn-info dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+          Type
+        </button>
+        <div class="dropdown-menu list" style="background-color: white;">
+            <a class="dropdown-item element" href="#">Basic</a>
+            <a class="dropdown-item element" href="#">Intermediate</a>
+            <a class="dropdown-item element" href="#">Advanced</a>
+        </div>
+    </div>
+    &nbsp; &nbsp;
+    <button class="btn btn-success btn-lg " style="border-radius: 30px;">Search</button>
+</div>
+
+<br>
+<br>
+<!-- Card -->
+
+<div class="container col-lg-10 offset-lg-2 col-md-10 offset-md-1 col-sm-10 offset-sm-1 projectlist">
+
+    <div class=" card " style="width: 18rem; float: left; ">
+        <img src="../../assets/images/full stack.jpg" class="card-img-top " alt="... " height="140px;">
+        <div class="card-body ">
+            <h5 class="card-title ">Full Stack</h5>
+            <p class="card-text ">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+        </div>
+        <ul class="list-group list-group-flush ">
+            <li class="list-group-item ">Cras justo odio</li>
+            <li class="list-group-item ">Dapibus ac facilisis in</li>
+            <li class="list-group-item ">Vestibulum at eros</li>
+        </ul>
+        <div class="card-body ">
+            <button type="button" [routerLink]="['/projectdetail']" class="btn btn-outline-info">More Details</button>
+        </div>
+    </div>
+
+    <div class="card " style="width: 18rem; float: left; ">
+        <img src="../../assets/images/and2.jpg" class="card-img-top " alt="... " height="140px;">
+        <div class="card-body ">
+            <h5 class="card-title ">Android</h5>
+            <p class="card-text ">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+        </div>
+        <ul class="list-group list-group-flush ">
+            <li class="list-group-item ">Cras justo odio</li>
+            <li class="list-group-item ">Dapibus ac facilisis in</li>
+            <li class="list-group-item ">Vestibulum at eros</li>
+        </ul>
+        <div class="card-body ">
+            <button type="button" [routerLink]="['/projectdetail']" class="btn btn-outline-info">More Details</button>
+        </div>
+    </div>
+
+    <div class="card " style="width: 18rem; ">
+        <img src="../../assets/images/ios.png" class="card-img-top " alt="... " height="140px;">
+        <div class="card-body ">
+            <h5 class="card-title ">IOS</h5>
+            <p class="card-text ">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+        </div>
+        <ul class="list-group list-group-flush ">
+            <li class="list-group-item ">Cras justo odio</li>
+            <li class="list-group-item ">Dapibus ac facilisis in</li>
+            <li class="list-group-item ">Vestibulum at eros</li>
+        </ul>
+        <div class="card-body ">
+            <button type="button" [routerLink]="['/projectdetail']" class="btn btn-outline-info">More Details</button>
+        </div>
+    </div>
+</div>

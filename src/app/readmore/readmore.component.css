@@ -1,0 +1,27 @@
+#main_nav {
+    background: pink;
+    padding-top:20px
+}
+
+.navbar {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0.5rem 1rem;
+}
+.fixed-top {
+    position: fixed;
+    top: 0;
+    right: 0;
+    left: 0;
+    z-index: 1030;
+}
+
+#about{
+    background-color: grey;
+    padding:40px;
+}
+.container{
+    padding:40px
+}
